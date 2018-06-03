@@ -2,7 +2,7 @@
 
 ## RpLidar A1m8是上海思岚科技的早期产品,图片如下：
 
-![Alt text](/images/pic.jpg)
+![alt](images/c00.jpg)  
 
 ```
 void main()
@@ -13,7 +13,11 @@ void main()
 
 ## 1-2. part 2
 
-*dsadsaf
+a  
+[^_^]:  
+b  
+c  
+d  
 *fdsfds
-
+```
 -----
