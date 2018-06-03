@@ -2,7 +2,7 @@
 
 ## RpLidar A1m8是上海思岚科技的早期产品,图片如下：
 
-![alt](images/c00.jpg)  
+![alt](images/pic.jpg)  
 
 ```
 void main()
@@ -21,3 +21,9 @@ d
 *fdsfds
 ```
 -----
+[^_^]:
+https://github.com/komushi/iot-tokyo-taxi/blob/master/LOCAL_SCS.MD
+[^_^]:
+https://raw.githubusercontent.com/komushi/iot-tokyo-taxi/master/LOCAL_SCS.MD
+
+

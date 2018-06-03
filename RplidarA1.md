@@ -2,7 +2,7 @@
 
 ## 实物的图片：
 
-![alt text](images\pic0.jpg)
+![alt](images\pic.jpg)
 
 a  
 [^_^]:  
