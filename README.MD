@@ -2,7 +2,7 @@
 
 ## RpLidar A1m8是上海思岚科技的早期产品,图片如下：
 
-![alt](images/c00.jpg)  
+![alt](https://rawgit.com/komushi/iot-tokyo-taxi/master/image/districts.png)
 
 ```
 void main()
@@ -12,7 +12,7 @@ void main()
 ```
 
 ## 1-2. part 2
-
+```
 a  
 [^_^]:  
 b  
@@ -25,5 +25,12 @@ d
 https://github.com/komushi/iot-tokyo-taxi/blob/master/LOCAL_SCS.MD
 [^_^]:
 https://raw.githubusercontent.com/komushi/iot-tokyo-taxi/master/LOCAL_SCS.MD
+
+```
+git add . 
+git commit -m 'test 1'
+git push origin master
+```
+
 
 
