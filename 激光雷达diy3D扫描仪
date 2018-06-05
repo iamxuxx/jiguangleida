@@ -1,9 +1,9 @@
-#**DIY激光雷达3D测量扫描仪介绍**
+#DIY激光雷达3D测量扫描仪介绍
 用上海思嵐科技的RPLIDAR—A1M8型号，这是基于三角形测量原理的传感器。具体见  
 <http://hp.myway.com/onlineworksuite/ttab02/index.html?p2=%5ECP6%5Exdm277%5ES25378%5Ejp&n=78488bd6&st=tab&ptb=8D2ED831-6490-4854-909C-45C82AA06E3E&si=adwords_rt-577e4ce3f5b362e6bf1b913fce06cb50>  
 该设计是做平面测量扫描的。
 
-#**设计成3D测量扫描**
+#设计成3D测量扫描
 本来RPLIDAR自己带有一个旋转运动，只做平面测量扫描，即2D的。  
 为了实现3D测量扫描，需要增加一个运动：  
 1、平移运动  
@@ -29,7 +29,7 @@ NO     | 名称    ｜数量    ｜备注 |
 14｜螺丝螺母｜4套｜M2.5     |
 
 
-#**diy设计的元器件构成**  
+#diy设计的元器件构成  
 1、RPLIDAR本身，即传感器  
 2、RPLIDAR套装中的USB-UART通信模块  
 3、一个UNO单片机  
