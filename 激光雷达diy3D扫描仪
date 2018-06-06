@@ -3,7 +3,7 @@
 <http://www.slamtec.com/cn/lidar/A3>  
 该设计是做平面测量扫描的。
 
-#**设计成3D测量扫描**
+# 设计成3D测量扫描
 本来RPLIDAR自己带有一个旋转运动，只做平面测量扫描，即2D的。  
 为了实现3D测量扫描，需要增加一个运动：  
 1、平移运动  
@@ -11,57 +11,20 @@
 3、平移加旋转运动  
 考虑容易入手的理由，选择2。  
 
-｜NO     | 名称    ｜数量    ｜备注 |   
-｜-------- | --- ｜----    ｜    |    
-｜1|RPLIDAR本身|1|即传感器    |   
-｜2|USB-UART模块|1|RPLIDAR套装中的    |     
-｜3|UNO|1|单片机    |  
-｜4|步进马达 |1|   |  
-｜5|光电开关 |1|    |  
-｜6|杜邦线|9|公母头    |   
-｜7｜三脚架｜1｜   |   
-｜8｜电脑 ｜1｜    |  
- ｜9｜USB1｜1｜小口馈线    |    
-｜10｜USB2｜1｜方口馈线     |  
- ｜11｜机械零部件1｜1 ｜diy3D打印    |  
-  ｜12｜机械零部件2｜1 ｜diy3D打印    |  
- ｜13｜机械零部件3｜1 ｜diy3D打印   |   
-｜14｜螺丝螺母｜4套｜M2.5     |  
+# diy设计的元器件构成
+|No.| 名称      | 数量 | 备注 |
+|| ------------- |---------------|---------------|
+|1|RPLIDAR本机 |1 | 即传感器|
+|2|USB-UART模块 |1 | RPLIDAR套装|
+|3|UNO|1 | 单片机|
+|4|步进马达|1 | |
+|5|光电开关|1 | |
+|6|杜邦线|9|公母头 |
+|7|三脚架|1 | |
+|8|电脑|1 | |
+|9|USB1|1|安卓手机小口 |
+|10|USB2|1|方口 |
+|11|机械零部件|3|3D打印 |
+|12|螺丝螺母|4|M2.5 |
 
-| Fields        | Descriptions | Sample Data |
-| ------------- |---------------|---------------|
-|medallion | an md5sum of the identifier of the taxi - vehicle bound | 22D70BF00EEB0ADC83BA8177BB861991 |
-|hack_license | an md5sum of the identifier for the taxi license| 3FF2709163DE7036FCAA4E5A3324E4BF |
-|pickup_datetime | time when the passenger(s) were picked up| 2016-08-11 00:02:00 |
-|dropoff_datetime | time when the passenger(s) were dropped off| 2016-08-11 00:05:00 |
-|trip_time_in_secs | duration of the trip| 300 |
-|trip_distance | trip distance in miles| 5400 |
-|pickup_longitude | longitude coordinate of the pickup location| 139.706348 |
-|pickup_latitude | latitude coordinate of the pickup location| 35.576938 |
-|dropoff_longitude | longitude coordinate of the drop-off location| 139.76401 |
-|dropoff_latitude | latitude coordinate of the drop-off location| 35.6651362 |
-|payment_type | the payment method - credit card or cash| CSH |
-|fare_amount | fare amount in currency| 2000 |
-|surcharge | surcharge in currency| 0 |
-|mta_tax | tax in currency| 160 |
-|tip_amount | tip in currency| 0 |
-|tolls_amount | bridge and tunnel tolls in currency| 0 |
-|total_amount | total paid amount in currency| 2160 |
-
-
-#**diy设计的元器件构成**  
-1、RPLIDAR本身，即传感器  
-2、RPLIDAR套装中的USB-UART通信模块  
-3、一个UNO单片机  
-4、一个步进马达  
-5、一个光电开关
-6、9根公母杜邦线
-7、一个三脚架  
-8、一台电脑  
-9、USB1馈线  
-10、USB2馈线  
-11、机械零部件1  
-12、机械零部件2 
-13、机械零部件3
-14、M2.5螺丝螺母4套
 
