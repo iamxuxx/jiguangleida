@@ -28,3 +28,25 @@
 |12|螺丝螺母|4|M2.5 |
 
 
+
+
+| Fields        | Descriptions | Sample Data |
+| ------------- |---------------|---------------|
+|medallion | an md5sum of the identifier of the taxi - vehicle bound | 22D70BF00EEB0ADC83BA8177BB861991 |
+|hack_license | an md5sum of the identifier for the taxi license| 3FF2709163DE7036FCAA4E5A3324E4BF |
+|pickup_datetime | time when the passenger(s) were picked up| 2016-08-11 00:02:00 |
+|dropoff_datetime | time when the passenger(s) were dropped off| 2016-08-11 00:05:00 |
+|trip_time_in_secs | duration of the trip| 300 |
+|trip_distance | trip distance in miles| 5400 |
+|pickup_longitude | longitude coordinate of the pickup location| 139.706348 |
+|pickup_latitude | latitude coordinate of the pickup location| 35.576938 |
+|dropoff_longitude | longitude coordinate of the drop-off location| 139.76401 |
+|dropoff_latitude | latitude coordinate of the drop-off location| 35.6651362 |
+|payment_type | the payment method - credit card or cash| CSH |
+|fare_amount | fare amount in currency| 2000 |
+|surcharge | surcharge in currency| 0 |
+|mta_tax | tax in currency| 160 |
+|tip_amount | tip in currency| 0 |
+|tolls_amount | bridge and tunnel tolls in currency| 0 |
+|total_amount | total paid amount in currency| 2160 |
+
