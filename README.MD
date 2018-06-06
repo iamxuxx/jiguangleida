@@ -41,6 +41,9 @@ d
 图片
 ![Alt text](http://www.izhangbo.cn/wp-content/themes/minty/img/logo.png "Optional title")
 
+插入视频代码：
+<iframe height=498 width=510 src="http://player.youku.com/embed/XNjcyMDU4Njg0">
+
 段落：以一个空行开始，以一个空行结束，中间的就是一个段落。
 
 表格：
