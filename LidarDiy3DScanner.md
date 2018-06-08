@@ -12,8 +12,7 @@
 考虑容易入手的理由，选择2。  
 
 # DIY原型机照片
-![alt](images/Scan3D.jpe
-g)
+![alt](images/Scan3D.jpeg)
 
 # diy设计的元器件构成
 |No.| 名称      | 数量 | 备注 |
