@@ -30,6 +30,8 @@
 |11|机械零部件|3|3D打印 |
 |12|螺丝螺母|4|M2.5 |
 
+# 采样头
+![alt](images/SmplHead.jpeg)
 
 # 采样数据视频示例
 <https://www.youtube.com/watch?v=YGQJd-3JXq0>
@@ -98,6 +100,13 @@ void serialEvent() {
 
 
 # PC代码
+
+PC端用Dialog模版，做了4个程序：  
+  * **初始化**:OnInitDialog  
+  * **启动扫描**:OnButton7()//Start  
+  * **接受数据**:OnCommunication(WPARAM ch, LPARAM port)  
+  * **处理并保存数据**:Thrd8(LPVOI)  
+
 
 ``` 
 BOOL CMySrlDlg::OnInitDialog()
