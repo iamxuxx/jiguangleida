@@ -28,5 +28,5 @@
 |12|螺丝螺母|4|M2.5 |
 
 
-
+# 采样数据视频示例
 <https://www.youtube.com/watch?v=YGQJd-3JXq0>
